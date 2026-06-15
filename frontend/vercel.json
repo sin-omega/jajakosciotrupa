@@ -1,0 +1,16 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "devCommand": "npm run dev",
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "nodeVersion": "18.x",
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "@NEXT_PUBLIC_SUPABASE_URL",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@NEXT_PUBLIC_SUPABASE_ANON_KEY",
+    "SUPABASE_SERVICE_KEY": "@SUPABASE_SERVICE_KEY",
+    "JWT_SECRET": "@JWT_SECRET",
+    "FLASK_URL": "@FLASK_URL",
+    "VERCEL_SECRET": "@VERCEL_SECRET"
+  }
+}
